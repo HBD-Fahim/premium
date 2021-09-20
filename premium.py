@@ -33,7 +33,7 @@ logo = ("""             ___  ___  ______  _________  ____  ___
            / ___/ , _/ _// /|_/ // // /_/ / /|_/ / 
           /_/  /_/|_/___/_/  /_/___/\____/_/  /_/ 
            
-               Coded By : Fahim Ahmed & Tasneem Afnan Tabassum
+       Coded By : Fahim Ahmed & Tasneem Afnan Tabassum
 ─────────────────────────────────────────────────────────────""")
 
 host="https://mbasic.facebook.com"
