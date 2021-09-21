@@ -135,7 +135,7 @@ def publik():
 			print (  a["name"])
 		ys.close()
 		print ("\033[0;97m─────────────────────────────────────────────────────────────")
-		print ('\033[0;97m╔══\033[0;97m[•] Sukses Mengambil ID dari %s'%op['name'])
+		print ('\033[0;97m╔══\033[0;97m[•] Successfully Take ID from %s'%op['name'])
 		print ("\033[0;97m╠══\033[0;97m[•] Total ID : %s"%(len(id)))
 		print ("\033[0;97m╚══\033[0;97m[•] Output : %s"%qq)
                 print ("\033[0;97m─────────────────────────────────────────────────────────────")
