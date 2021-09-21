@@ -111,7 +111,7 @@ def publik():
 	try:
                 os.system("clear")
                 print logo
-		print("\033[0;97m╔══\033[0;97m[•] Ketik \'me\' Jika Ingin Mengambil ID Dari Daftar Teman")
+		print("\033[0;97m╔══\033[0;97m[•] Type 'me' To Dump From Friendlist")
 		idt = raw_input("\033[0;97m╠══\033[0;97m[•] User ID Target : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
