@@ -139,7 +139,7 @@ def publik():
 		print ("\033[0;97m╠══\033[0;97m[•] Total ID : %s"%(len(id)))
 		print ("\033[0;97m╚══\033[0;97m[•] Output : %s"%qq)
                 print ("\033[0;97m─────────────────────────────────────────────────────────────")
-		raw_input("\033[0;97m   [•] [Back]") \033[0m
+		raw_input("\033[0;97m   [•] [Back]")
                 os.system("clear")
                 print logo
 		crack()
