@@ -139,7 +139,7 @@ def publik():
 		print ("\033[0;97m╠══\033[0;97m[•] Total ID : %s"%(len(id)))
 		print ("\033[0;97m╚══\033[0;97m[•] Output : %s"%qq)
                 print ("\033[0;97m─────────────────────────────────────────────────────────────")
-		raw_input("\033[0;97m   [•] [Kembali]")
+		raw_input("\033[0;97m   [•] [Back]") \033[0m
                 os.system("clear")
                 print logo
 		crack()
@@ -205,7 +205,7 @@ class crack:
 		self.ko=0
 		print("\033[0;97m╔══\033[0;97m[•] Crack With Pass Default Or Manual [d/m]")
 		while True:
-			f=raw_input("\033[0;97m╠══\033[0;97m[•] Pilih : ")
+			f=raw_input("\033[0;97m╠══\033[0;97m[•] Choose : ")
 			if f=="":continue
 			elif f=="m":
 				try:
